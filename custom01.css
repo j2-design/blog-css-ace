@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+  .main-text2 {
+    font-size: 36px;
+    left: -15%;
+  }
+
+  .main-date {
+    left: -15%;
+  }
+
+  .main-text .main-text2:after {
+    zoom: 60%;
+    left: 10%;
+    bottom: -300px;
+  }
+
+  .main-date span {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1800px) {
+  .main-text2 {
+    font-size: 42px;
+    left: -10%;
+  }
+
+  .main-date {
+    left: -10%;
+  }
+
+  .main-text .main-text2:after {
+    zoom: 70%;
+    left: 12%;
+    bottom: -350px;
+  }
+
+  .main-date span {
+    font-size: 32px;
+  }
+}
